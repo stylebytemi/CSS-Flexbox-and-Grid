@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    background-color: grey;
+}
+
+button {
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    color: black;
+}
+
+button:hover {
+    color: white;
+    background-color: grey;
+    border: solid 1px white;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+    width: 50%;
+}
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 35px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 35px;
+    border: none;
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 35px;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 35px;
+    font-family: Lexend Deca;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+img {
+    width: 50px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: Big Shoulders Display;
+}
+
+.btn1 {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 17px;
+    border: none;
+    height: 34px;
+    width: 120px;
+    color: hsl(31, 77%, 52%);
+}
+
+.btn1:hover {
+    background-color: hsl(31, 77%, 52%);
+    border: solid 2px hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.btn2 {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 17px;
+    border: none;
+    height: 34px;
+    width: 120px;
+    color: hsl(184, 100%, 22%);
+}
+
+.btn2:hover {
+    background-color: hsl(184, 100%, 22%);
+    border: solid 2px hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.btn3 {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 17px;
+    border: none;
+    height: 34px;
+    width: 120px;
+    color: hsl(179, 100%, 13%);
+}
+
+.btn3:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: solid 2px hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 375px) {
+    .flex {
+        display: block;
+    }
+
+    .box1 {
+        border-radius: 0px;
+    }
+
+    .box3 {
+        border-radius: 0px;
+    }
+}
